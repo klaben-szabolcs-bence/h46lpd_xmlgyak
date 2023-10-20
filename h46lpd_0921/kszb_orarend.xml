@@ -24,7 +24,7 @@
     <szak>ProgTerv</szak>
   </ora>
   <ora id="2" tipus="elm">
-    <targy nev="WEB technológiák"/>
+    <targy nev="WEB technológiák 1"/>
     <idopont>
       <nap>Hétfő</nap>
       <tol>12</tol>
@@ -35,7 +35,7 @@
     <szak>ProgTerv</szak>
   </ora>
   <ora id="3" tipus="elm">
-    <targy nev="Mesterséges intelligencia"/>
+    <targy nev="Mesterséges intelligencia alapok"/>
     <idopont>
       <nap>Hétfő</nap>
       <tol>14</tol>
@@ -46,7 +46,7 @@
     <szak>BP</szak>
   </ora>
   <ora id="4" tipus="gyak">
-    <targy nev="WEB technológiák"/>
+    <targy nev="WEB technológiák 1"/>
     <idopont>
       <nap>Hétfő</nap>
       <tol>17</tol>
@@ -54,6 +54,39 @@
     </idopont>
     <helyszin>In/101</helyszin>
     <oktato>Kunné Tamás Judit</oktato>
+    <szak>BP</szak>
+  </ora>
+  <ora id="5" tipus="elm">
+    <targy nev="Adatkezelés XML-ben"/>
+    <idopont>
+      <nap>Kedd</nap>
+      <tol>12</tol>
+      <ig>14</ig>
+    </idopont>
+    <helyszin>I ea.</helyszin>
+    <oktato>Dr. Bednarik László</oktato>
+    <szak>BP</szak>
+  </ora>
+  <ora id="6" tipus="gyak">
+    <targy nev="Adatkezelés XML-ben"/>
+    <idopont>
+      <nap>Kedd</nap>
+      <tol>14</tol>
+      <ig>16</ig>
+    </idopont>
+    <helyszin>In/103</helyszin>
+    <oktato>Dr. Bendarik László</oktato>
+    <szak>BP</szak>
+  </ora>
+  <ora id="4" tipus="gyak">
+    <targy nev="Angol nyelv nyelvvizsga előkészítő szint"/>
+    <idopont>
+      <nap>Kedd</nap>
+      <tol>16</tol>
+      <ig>18</ig>
+    </idopont>
+    <helyszin>In/101</helyszin>
+    <oktato>Dóra Dorkó</oktato>
     <szak>BP</szak>
   </ora>
 </orarend>
