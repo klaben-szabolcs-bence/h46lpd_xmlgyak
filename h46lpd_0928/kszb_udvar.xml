@@ -1,3 +1,21 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE udvar [
+<!ELEMENT udvar (gazda, kutya*, kakas*, tyuk*, roka*, diszno*)>
+<!ELEMENT gazda EMPTY>
+<!ATTLIST gazda nev CDATA #REQUIRED>
+<!ELEMENT kutya EMPTY>
+<!ATTLIST kutya nev CDATA #REQUIRED>
+<!ELEMENT kakas EMPTY>
+<!ATTLIST kakas id ID #REQUIRED>
+<!ELEMENT tyuk EMPTY>
+<!ATTLIST tyuk ferj IDREF #REQUIRED>
+<!ELEMENT roka EMPTY>
+<!ELEMENT diszno EMPTY>
+<!ATTLIST diszno nev CDATA #REQUIRED>
+
+]>
+
 <udvar>
     <gazda nev="Alex"/>
     <kutya nev="Nero"></kutya>
