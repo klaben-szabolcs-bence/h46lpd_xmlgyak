@@ -12,7 +12,7 @@ import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
 import org.w3c.dom.Element;
 
-public class DomReadVUXFKS {
+public class DomReadH46LPD {
 
   public static void main(String[] args) throws ParserConfigurationException, IOException {
     File file = new File("XMLh46lpd.xml");
