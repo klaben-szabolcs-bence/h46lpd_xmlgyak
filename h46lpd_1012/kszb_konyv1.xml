@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<konyv isbn="9788440651266">
+		<cim>Forrest Gump</cim>
+		<szerzo>Winston Groom</szerzo>
+		<szereplo>
+			<nev>Forrest Gump</nev>
+			<baratja>Dan Storm</baratja>
+			<szuletett>1944</szuletett>
+			<jellemzes>Simpleton,trusting,forgiving,caring</jellemzes>
+		</szereplo>
+		<szereplo>
+			<nev>Benjamin Buford</nev>
+			<baratja>Forrest Gump</baratja>
+			<szuletett>1943</szuletett>
+			<jellemzes>simple,loyal,dutiful</jellemzes>
+		</szereplo>
+	</konyv>
+</konyvek>

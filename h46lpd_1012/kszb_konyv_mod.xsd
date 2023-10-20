@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="qualified">
+    <xs:element name="konyvek">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="konyv" type="konyvTipus"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="konyvTipus">
+        <xs:sequence>
+            <xs:element ref="cim"/>
+            <xs:element ref="szerzo"/>
+            <xs:element ref="szereplo" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute ref="isbn"/>
+    </xs:complexType>
+	
+	<xs:element name="szereplo" type="szereploTipus"/>
+    <xs:element name="cim" type="xs:string"></xs:element>
+    <xs:element name="szerzo" type="xs:string"></xs:element>
+    <xs:attribute name="isbn" type="xs:string"></xs:attribute>
+
+    <xs:complexType name="szereploTipus">
+        <xs:sequence>
+            <xs:element ref="nev"/>
+            <xs:element ref="baratja"/>
+            <xs:element ref="szuletett"/>
+            <xs:element ref="jellemzes"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:element name="nev" type="xs:string"></xs:element>
+    <xs:element name="baratja" type="xs:string"></xs:element>
+    <xs:element name="szuletett" type="xs:string"></xs:element>
+    <xs:element name="jellemzes" type="xs:string"></xs:element>
+</xs:schema>

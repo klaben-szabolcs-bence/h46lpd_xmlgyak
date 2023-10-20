@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nevjegykartyak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="kszb_nevjegykartya.xsd">
+	<nevjegykartya id="1">
+		<nev>Bajusz Istvan</nev>
+		<ceg>
+			<nev>Miskolci Egyetem</nev>
+			<cim>
+				<iranyitoszam>3515</iranyitoszam>
+				<varos>Miskolc</varos>
+				<utca>Egyetemvaros</utca>
+				<hazszam>654</hazszam>
+			</cim>
+			<telefonszam>06702589634</telefonszam>
+			<weblap>http://www.uni-miskolc.hu/</weblap>
+		</ceg>
+		<beosztas>hallgató</beosztas>
+		<telefonszam>123456789</telefonszam>
+		<email>bajuszistvn@gmail.com</email>
+	</nevjegykartya>
+	<nevjegykartya id="2">
+		<nev>Kovacs Bela</nev>
+		<ceg>
+			<nev>Miskolci Egyetem</nev>
+			<cim>
+				<iranyitoszam>3515</iranyitoszam>
+				<varos>Miskolc</varos>
+				<utca>Egyetemvaros</utca>
+				<hazszam>98</hazszam>
+			</cim>
+			<telefonszam>06307894561</telefonszam>
+			<weblap>https://www.dsadas.com</weblap>
+		</ceg>
+		<beosztas>Asd</beosztas>
+		<telefonszam>987654321</telefonszam>
+		<email>asd@gmail.com</email>
+	</nevjegykartya>
+</nevjegykartyak>

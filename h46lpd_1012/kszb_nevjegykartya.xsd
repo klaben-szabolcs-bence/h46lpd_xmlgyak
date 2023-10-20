@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="qualified">
+	<xs:element name="nevjegykartyak">
+		<xs:complexType>
+			<xs:sequence minOccurs="2" maxOccurs="unbounded">
+				<xs:element name="nevjegykartya" type="nevjegykartyaTipus"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:complexType name="nevjegykartyaTipus">
+		<xs:sequence>
+			<xs:element name="nev" type="xs:string"/>
+			<xs:element name="ceg" type="cegTipus"/>
+			<xs:element name="beosztas" type="xs:string"/>
+			<xs:element name="telefonszam" type="xs:string"/>
+			<xs:element name="email" type="xs:string"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:integer" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="cegTipus">
+		<xs:sequence>
+			<xs:element name="nev" type="xs:string"/>
+			<xs:element name="cim" type="cimTipus"/>
+			<xs:element name="telefonszam" type="xs:string"/>
+			<xs:element name="weblap" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="cimTipus">
+		<xs:sequence>
+			<xs:element name="iranyitoszam" type="xs:integer"/>
+			<xs:element name="varos" type="xs:string"/>
+			<xs:element name="utca" type="xs:string"/>
+			<xs:element name="hazszam" type="xs:integer"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
