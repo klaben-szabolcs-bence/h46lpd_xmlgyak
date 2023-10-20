@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<orarend>
+  <ora id="0" tipus="elm">
+    <targy nev="Algoritmusok és vizsgálatuk"/>
+    <idopont>
+      <nap>Hétfő</nap>
+      <tol>8</tol>
+      <ig>10</ig>
+    </idopont>
+    <helyszin>XII ea.</helyszin>
+    <oktato>Dr. Házy Attila</oktato>
+    <szak>ProgTerv</szak>
+  </ora>
+  <ora id="1" tipus="gyak">
+    <targy nev="Algoritmusok és vizsgálatuk"/>
+    <idopont>
+      <nap>Hétfő</nap>
+      <tol>10</tol>
+      <ig>12</ig>
+    </idopont>
+    <helyszin>XII ea.</helyszin>
+    <oktato>Dr. Házy Attila</oktato>
+    <szak>ProgTerv</szak>
+  </ora>
+  <ora id="2" tipus="elm">
+    <targy nev="WEB technológiák"/>
+    <idopont>
+      <nap>Hétfő</nap>
+      <tol>12</tol>
+      <ig>14</ig>
+    </idopont>
+    <helyszin>III ea.</helyszin>
+    <oktato>Agárdi Anita</oktato>
+    <szak>ProgTerv</szak>
+  </ora>
+  <ora id="3" tipus="elm">
+    <targy nev="Mesterséges intelligencia"/>
+    <idopont>
+      <nap>Hétfő</nap>
+      <tol>14</tol>
+      <ig>17</ig>
+    </idopont>
+    <helyszin>XXXII ea.</helyszin>
+    <oktato>Dr. Dudás László</oktato>
+    <szak>BP</szak>
+  </ora>
+  <ora id="4" tipus="gyak">
+    <targy nev="WEB technológiák"/>
+    <idopont>
+      <nap>Hétfő</nap>
+      <tol>17</tol>
+      <ig>19</ig>
+    </idopont>
+    <helyszin>In/101</helyszin>
+    <oktato>Kunné Tamás Judit</oktato>
+    <szak>BP</szak>
+  </ora>
+</orarend>
