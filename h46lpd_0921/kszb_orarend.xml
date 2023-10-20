@@ -78,15 +78,37 @@
     <oktato>Dr. Bendarik László</oktato>
     <szak>BP</szak>
   </ora>
-  <ora id="4" tipus="gyak">
+  <ora id="7" tipus="gyak">
     <targy nev="Angol nyelv nyelvvizsga előkészítő szint"/>
     <idopont>
       <nap>Kedd</nap>
       <tol>16</tol>
       <ig>18</ig>
     </idopont>
-    <helyszin>In/101</helyszin>
+    <helyszin>A1/14</helyszin>
     <oktato>Dóra Dorkó</oktato>
+    <szak>BP</szak>
+  </ora>
+  <ora id="8" tipus="gyak">
+    <targy nev="Mesterséges intelligencia alapok"/>
+    <idopont>
+      <nap>Szerda</nap>
+      <tol>9</tol>
+      <ig>10</ig>
+    </idopont>
+    <helyszin>In/15</helyszin>
+    <oktato>Dr. Dudás László</oktato>
+    <szak>BP</szak>
+  </ora>
+  <ora id="9" tipus="gyak">
+    <targy nev="Vállalati információs rendszerek"/>
+    <idopont>
+      <nap>Szerda</nap>
+      <tol>16</tol>
+      <ig>20</ig>
+    </idopont>
+    <helyszin>In/103</helyszin>
+    <oktato>Dr. Sasvári Péter</oktato>
     <szak>BP</szak>
   </ora>
 </orarend>
