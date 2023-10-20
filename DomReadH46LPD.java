@@ -15,7 +15,7 @@ import org.w3c.dom.Element;
 public class DomReadH46LPD {
 
   public static void main(String[] args) throws ParserConfigurationException, IOException {
-    File file = new File("XMLh46lpd.xml");
+    File file = new File("XMLH46LPD.xml");
     DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
     DocumentBuilder dBuilder = factory.newDocumentBuilder();
     Document doc = dBuilder.parse(file);
