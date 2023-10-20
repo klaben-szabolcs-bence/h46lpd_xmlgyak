@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Órarend</title>
+    </head>
+    <body>
+        <table border="5" bordercolor="black">
+            <tr bgcolor="green">
+                <th>Tipus</th>
+                <th>Targy</th>
+                <th>Idopont</th>
+                <th>Helyszin</th>
+                <th>Oktato</th>
+                <th>Szak</th>
+            </tr>
+            <tr>
+                <td>eloadas</td>
+                <td>WEB technológiák 1</td>
+                <td>
+			Hetfo
+			12:00
+			14:00
+                </td>
+                <td>A1 305</td>
+                <td>Agárdi Anita</td>
+                <td>Programtervezo informatikus</td>
+            </tr>
+            <tr>
+                <td>eloadas</td>
+                <td>Mesterseges inteligencia alapjai</td>
+                <td>
+			Hetfo
+			14:00
+			17:00
+                </td>
+                <td>XXXII eloado</td>
+                <td>Dr. Dudás László</td>
+                <td>Programtervezo informatikus</td>
+            </tr>
+            <tr>
+                <td>eloadas</td>
+                <td>Adatkezelés XML-ben</td>
+                <td>
+		Kedd
+		12:00
+		14:00
+                </td>
+                <td>I A2 fsz.</td>
+                <td>Dr. Bendarik László</td>
+                <td>Programtervezo informatikus</td>
+            </tr>
+            <tr>
+                <td>gyakorlat</td>
+                <td>Adatkezelés XML-ben</td>
+                <td>
+		Kedd
+		14:00
+		16:00
+                </td>
+                <td>In/103 In I. em. 103</td>
+                <td>Dr. Bendarik László</td>
+                <td>Programtervezo informatikus</td>
+            </tr>
+            <tr>
+                <td>gyakorlat</td>
+                <td>WEB technológiák 1</td>
+                <td>
+			Kedd
+			16:00
+			18:00
+                </td>
+                <td>In/103 In I. em. 103</td>
+                <td>Agárdi Anita</td>
+                <td>Programtervezo informatikus</td>
+            </tr>
+            <tr>
+                <td>gyakorlat</td>
+                <td>Mesterseges inteligencia alapjai</td>
+                <td>
+			Kedd
+			18:00
+			19:00
+                </td>
+                <td>inf. 15</td>
+                <td>Dr. Dudás László</td>
+                <td>Programtervezo informatikus</td>
+            </tr>
+        </table>
+    </body>
+</html>

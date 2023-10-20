@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<orarend>
+	<ora id="1" tipus="eloadas">
+		<targy>WEB technológiák 1</targy>
+		<idopont>
+			<nap>Hetfo</nap>
+			<tol>12:00</tol>
+			<ig>14:00</ig>
+		</idopont>
+		<helyszin>A1 305</helyszin>
+		<oktato>Agárdi Anita</oktato>
+		<szak>Programtervezo informatikus</szak>
+	</ora>
+	<ora id="2" tipus="eloadas">
+		<targy>Mesterseges inteligencia alapjai</targy>
+		<idopont>
+			<nap>Hetfo</nap>
+			<tol>14:00</tol>
+			<ig>17:00</ig>
+		</idopont>
+		<helyszin>XXXII eloado</helyszin>
+		<oktato>Dr. Dudás László</oktato>
+		<szak>Programtervezo informatikus</szak>
+	</ora>
+	<ora id="3" tipus="eloadas">
+		<targy>Adatkezelés XML-ben</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>12:00</tol>
+			<ig>14:00</ig>
+		</idopont>
+		<helyszin>I A2 fsz.</helyszin>
+		<oktato>Dr. Bendarik László</oktato>
+		<szak>Programtervezo informatikus</szak>
+	</ora>
+	<ora id="4" tipus="gyakorlat">
+		<targy>Adatkezelés XML-ben</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>14:00</tol>
+			<ig>16:00</ig>
+		</idopont>
+		<helyszin>In/103 In I. em. 103</helyszin>
+		<oktato>Dr. Bendarik László</oktato>
+		<szak>Programtervezo informatikus</szak>
+	</ora>
+	<ora id="5" tipus="gyakorlat">
+		<targy>WEB technológiák 1</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>16:00</tol>
+			<ig>18:00</ig>
+		</idopont>
+		<helyszin>In/103 In I. em. 103</helyszin>
+		<oktato>Agárdi Anita</oktato>
+		<szak>Programtervezo informatikus</szak>
+	</ora>
+	<ora id="6" tipus="gyakorlat">
+		<targy>Mesterseges inteligencia alapjai</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>18:00</tol>
+			<ig>19:00</ig>
+		</idopont>
+		<helyszin>inf. 15</helyszin>
+		<oktato>Dr. Dudás László</oktato>
+		<szak>Programtervezo informatikus</szak>
+	</ora>
+</orarend>
