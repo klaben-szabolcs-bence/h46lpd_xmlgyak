@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users xmlns="h46lpd9mh">
+  <user id="1">
+    <firstname>Sandor</firstname>
+    <lastname>Nagy</lastname>
+    <profession>dsad</profession>
+  </user>
+  <user id="2">
+    <firstname>Bela</firstname>
+    <lastname>Kiss</lastname>
+    <profession>hfghgf</profession>
+  </user>
+  <user id="3">
+    <firstname>Jozsef</firstname>
+    <lastname>Kovacs</lastname>
+    <profession>zrttrz</profession>
+  </user>
+</users>

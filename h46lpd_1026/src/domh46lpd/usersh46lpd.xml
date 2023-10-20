@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<users><!-- xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="usersh46lpd.xsd"> --> 
+	<user id="1">
+		<firstname>Istvan</firstname>
+		<lastname>Bajusz</lastname>
+		<profession>student</profession>
+	</user>
+	<user id="2">
+		<firstname>Bela</firstname>
+		<lastname>Kovacs</lastname>
+		<profession>cashier</profession>
+	</user>
+	<user id="3">
+		<firstname>Laszlo</firstname>
+		<lastname>Nagy</lastname>
+		<profession>asd</profession>
+	</user>
+</users>
