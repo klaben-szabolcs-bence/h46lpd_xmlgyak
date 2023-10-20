@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE orarend SYSTEM "../h46lpd_0928/kszb_orarend.dtd">
 
 <orarend>
-  <ora id="0" tipus="elm">
+  <ora id="o0" tipus="elm">
     <targy nev="Algoritmusok és vizsgálatuk"/>
     <idopont>
       <nap>Hétfő</nap>
@@ -12,7 +13,7 @@
     <oktato>Dr. Házy Attila</oktato>
     <szak>ProgTerv</szak>
   </ora>
-  <ora id="1" tipus="gyak">
+  <ora id="o1" tipus="gyak">
     <targy nev="Algoritmusok és vizsgálatuk"/>
     <idopont>
       <nap>Hétfő</nap>
@@ -23,7 +24,7 @@
     <oktato>Dr. Házy Attila</oktato>
     <szak>ProgTerv</szak>
   </ora>
-  <ora id="2" tipus="elm">
+  <ora id="o2" tipus="elm">
     <targy nev="WEB technológiák 1"/>
     <idopont>
       <nap>Hétfő</nap>
@@ -34,7 +35,7 @@
     <oktato>Agárdi Anita</oktato>
     <szak>ProgTerv</szak>
   </ora>
-  <ora id="3" tipus="elm">
+  <ora id="o3" tipus="elm">
     <targy nev="Mesterséges intelligencia alapok"/>
     <idopont>
       <nap>Hétfő</nap>
@@ -45,7 +46,7 @@
     <oktato>Dr. Dudás László</oktato>
     <szak>BP</szak>
   </ora>
-  <ora id="4" tipus="gyak">
+  <ora id="o4" tipus="gyak">
     <targy nev="WEB technológiák 1"/>
     <idopont>
       <nap>Hétfő</nap>
@@ -56,7 +57,7 @@
     <oktato>Kunné Tamás Judit</oktato>
     <szak>BP</szak>
   </ora>
-  <ora id="5" tipus="elm">
+  <ora id="o5" tipus="elm">
     <targy nev="Adatkezelés XML-ben"/>
     <idopont>
       <nap>Kedd</nap>
@@ -67,7 +68,7 @@
     <oktato>Dr. Bednarik László</oktato>
     <szak>BP</szak>
   </ora>
-  <ora id="6" tipus="gyak">
+  <ora id="o6" tipus="gyak">
     <targy nev="Adatkezelés XML-ben"/>
     <idopont>
       <nap>Kedd</nap>
@@ -78,7 +79,7 @@
     <oktato>Dr. Bendarik László</oktato>
     <szak>BP</szak>
   </ora>
-  <ora id="7" tipus="gyak">
+  <ora id="o7" tipus="gyak">
     <targy nev="Angol nyelv nyelvvizsga előkészítő szint"/>
     <idopont>
       <nap>Kedd</nap>
@@ -89,7 +90,7 @@
     <oktato>Dóra Dorkó</oktato>
     <szak>BP</szak>
   </ora>
-  <ora id="8" tipus="gyak">
+  <ora id="o8" tipus="gyak">
     <targy nev="Mesterséges intelligencia alapok"/>
     <idopont>
       <nap>Szerda</nap>
@@ -100,7 +101,7 @@
     <oktato>Dr. Dudás László</oktato>
     <szak>BP</szak>
   </ora>
-  <ora id="9" tipus="gyak">
+  <ora id="o9" tipus="gyak">
     <targy nev="Vállalati információs rendszerek"/>
     <idopont>
       <nap>Szerda</nap>
