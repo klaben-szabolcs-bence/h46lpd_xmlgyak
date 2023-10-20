@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE adatbazis SYSTEM "kszb_adatbazis.dtd">
+<adatbazis>
+    <dolgozo kod="_0">
+        <nev>A</nev>
+        <fizetes>10</fizetes>
+    </dolgozo>
+    <dolgozo kod="_1">
+        <nev>B</nev>
+        <fizetes>11</fizetes>
+    </dolgozo>
+</adatbazis>
