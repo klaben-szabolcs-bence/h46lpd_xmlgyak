@@ -1,0 +1,20 @@
+<konyvek>
+    <konyv id="0">
+        <cim>Bit</cim>
+        <ev>2012</ev>
+        <szerzo>Bit</szerzo>
+        <kiado>Bit</kiado>
+    </konyv>
+    <konyv id="1">
+        <cim>Byte</cim>
+        <ev>2017</ev>
+        <szerzo>Bit</szerzo>
+        <kiado>Bit</kiado>
+    </konyv>
+    <konyv id="2">
+        <cim>Nibble</cim>
+        <ev>2019</ev>
+        <szerzo>Bit</szerzo>
+        <kiado>Bit</kiado>
+    </konyv>
+</konyvek>
