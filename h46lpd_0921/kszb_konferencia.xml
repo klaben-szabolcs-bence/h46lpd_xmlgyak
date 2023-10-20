@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konferencia cim="Cím" helyszin="Miskolci Egyetem I. ea" datum="2021.09.21">
+  <hallgatok>
+    <hallgato nev="Kláben Szabolcs Bence" lakcim="3535 Miskolc, XY utca 12"/>
+    <hallgato nev="Szilágyi Gábor" lakcim="3535 Miskolc, YY utca 26"/>
+    <hallgato nev="Várhegyi Anett" lakcim="3535 Miskolc, YX utca 37"/>
+    <hallgato nev="Simon Dániel" lakcim="3535 Miskolc, XX utca 56"/>
+  </hallgatok>
+  <eloada nev="Bednarik Lázsló" adoszam="000" lakcim="3535 Miskolc, ZY utca 34"/>
+</konferencia>
