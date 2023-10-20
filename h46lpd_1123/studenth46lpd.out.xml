@@ -1,0 +1,30 @@
+<html>
+    <body>
+        <h2>SD apple-template</h2>
+
+        <div>ID: 01</div>
+        <div style="color:green">Vezeteknev: Bajusz</div>
+        <div style="color:brown">Keresztnev: Istvan</div>
+        <div style="color:orange">Becenev: Pityu</div>
+        <div style="color:blue">Kor: 23</div>
+        <div style="color:red">Fizetes: 600000</div>
+        <br />
+
+        <div>ID: 02</div>
+        <div style="color:green">Vezeteknev: Kovacs</div>
+        <div style="color:brown">Keresztnev: Bela</div>
+        <div style="color:orange">Becenev: Beci</div>
+        <div style="color:blue">Kor: 28</div>
+        <div style="color:red">Fizetes: 550000</div>
+        <br />
+
+        <div>ID: 03</div>
+        <div style="color:green">Vezeteknev: Nagy</div>
+        <div style="color:brown">Keresztnev: Laszlo</div>
+        <div style="color:orange">Becenev: Laci</div>
+        <div style="color:blue">Kor: 21</div>
+        <div style="color:red">Fizetes: 450000</div>
+        <br />
+
+    </body>
+</html>

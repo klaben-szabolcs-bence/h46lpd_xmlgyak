@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml-stylesheet type = "text/xsl" href = "studentkszb_choose.xsl"?>
+
+<class>
+	<student id="01">
+		<vezeteknev>Bajusz</vezeteknev>
+		<keresztnev>Istvan</keresztnev>		
+		<becenev>Pityu</becenev>
+		<kor>23</kor>
+		<fizetes>600000</fizetes>
+	</student>
+	<student id="02">
+		<vezeteknev>Kovacs</vezeteknev>
+		<keresztnev>Bela</keresztnev>
+		<becenev>Beci</becenev>
+		<kor>28</kor>
+		<fizetes>550000</fizetes>
+	</student>
+	<student id="03">
+		<vezeteknev>Nagy</vezeteknev>
+		<keresztnev>Laszlo</keresztnev>
+		<becenev>Laci</becenev>
+		<kor>21</kor>
+		<fizetes>450000</fizetes>
+	</student>
+</class>
