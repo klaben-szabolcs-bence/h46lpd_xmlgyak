@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.w3schools.com"
+xmlns="https://www.w3schools.com"
+elementFormDefault="qualified">
+
+  <xs:element name="adatbazis">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="oktatok">
+          <xs:complexType>
+            <xs:element name="oktato" type="oktatoType" maxOccurs="unbounded"/>
+          </xs:complexType>
+        </xs:element>  
+        <xs:element name="targyak">
+          <xs:complexType>
+            <xs:element name="targy" type="targyType" maxOccurs="unbounded"/>
+          </xs:complexType>
+        </xs:element> 
+        <xs:element name="hallgatasok">
+          <xs:complexType>
+            <xs:element name="hallgatas" type="hallgatasType" maxOccurs="unbounded"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="hallgatok">
+          <xs:complexType>
+            <xs:element name="hallgato" type="hallgatoType" maxOccurs="unbounded"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+    <xs:key name="Targy_PK">
+            <xs:selector xpath="targyak/targy"/>
+            <xs:field xpath="@kod"/>
+    </xs:key>
+    <xs:key name="Hallgato_PK">
+            <xs:selector xpath="hallgatok/hallgato"/>
+            <xs:field xpath="@neptunkod"/>
+    </xs:key>
+    <xs:key name="Oktato_PK">
+            <xs:selector xpath="oktatok/oktato"/>
+            <xs:field xpath="@neptunkod"/>
+    </xs:key>
+    <xs:keyref name="Oktato_FK" refer="Targy_PK">
+            <xs:selector xpath="oktatok/oktato"/>
+            <xs:field xpath="targy"/>
+    </xs:keyref>
+    <xs:keyref name="Hallgat-Targy_FK" refer="Targy_PK">
+            <xs:selector xpath="hallgatasok/hallgat"/>
+            <xs:field xpath="targy"/>
+    </xs:keyref>
+    <xs:keyref name="Hallgat-Hallgato_FK" refer="Hallgato_PK">
+            <xs:selector xpath="hallgatok/hallgato"/>
+            <xs:field xpath="hallgato"/>
+    </xs:keyref>
+  </xs:element>
+   <xs:complexType name="oktatoType">
+     <xs:sequence>
+       <xs:element name="nev" type="xs:string"/>
+       <xs:element name="tanszek" type="xs:string"/>
+       <xs:element name="targy" type="xs:string"/>
+     </xs:sequence>
+     <xs:attribute name="neptunkod" type="xs:string" use="required"/>
+   </xs:complexType>
+  <xs:complexType name="targyType">
+     <xs:sequence>
+       <xs:element name="kredit" type="xs:unsignedByte"/>
+       <xs:element name="megnev" type="xs:string"/>
+     </xs:sequence>
+     <xs:attribute name="kod" type="xs:string" use="required"/>
+   </xs:complexType>
+  <xs:complexType name="hallgatType">
+     <xs:sequence>
+       <xs:element name="targy" type="xs:string"/>
+       <xs:element name="hallgato" type="xs:string"/>
+       <xs:element name="felev" type="xs:unsignedByte"/>
+       <xs:element name="vizsgajegy" type="xs:unsignedByte"/>
+     </xs:sequence>
+   </xs:complexType>
+  <xs:complexType name="hallgatoType">
+     <xs:sequence>
+       <xs:element name="nev" type="xs:string"/>
+       <xs:element name="tankor" type="xs:string"/>
+       <xs:element name="szuldat" type="xs:date"/>
+       <xs:element name="cim">
+         <xs:complexType>
+           <xs:sequence>
+             <xs:element name="irszam" type="xs:unsignedInt"/>
+             <xs:element name="varos" type="xs:string"/>
+             <xs:element name="utca" type="xs:string"/>
+             <xs:element name="hsz" type="xs:unsignedByte"/>
+           </xs:sequence>
+         </xs:complexType>
+       </xs:element>
+     </xs:sequence>
+     <xs:attribute name="neptunkod" type="xs:string" use="required"/>
+   </xs:complexType>
+</xs:schema>
