@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <!DOCTYPE szemelyek SYSTEM "szemelyekh46lpd.DTD"> -->
+
+<szemelyek> <!--  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="szemelyekh46lpd.xsd"> -->
+	<szemely id="x1">
+		<nev>Bajusz Istvan</nev>
+		<kor>23</kor>
+		<varos>Ozd</varos>	
+	</szemely>
+	<szemely id="x2">
+		<nev>Kovacs Bela</nev>
+		<kor>28</kor>
+		<varos>Miskolc</varos>
+	</szemely>	
+	<szemely id="x3">
+		<nev>Nagy Laszlo</nev>
+		<kor>21</kor>
+		<varos>Budapest</varos>
+	</szemely>
+</szemelyek>

@@ -1,0 +1,8 @@
+<!DOCTYPE szemelyek [
+	<!ELEMENT szemelyek (szemely*)>
+	<!ELEMENT szemely (nev,kor,varos)>
+	<!ATTLIST szemely id ID #REQUIRED>
+	<!ELEMENT nev (#PCDATA)>
+	<!ELEMENT kor (#PCDATA)>
+	<!ELEMENT varos (#PCDATA)>
+]>
