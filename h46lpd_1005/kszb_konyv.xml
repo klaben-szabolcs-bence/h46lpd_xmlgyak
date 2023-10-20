@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE konyvek SYSTEM "kszb_konyv.dtd">-->
+<konyvek xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="kszb_konyv.xsd">
+	<konyv kod="x01">
+		<cim>Computer Networks (5th Edition)</cim>
+		<kiadasi_ev>2010</kiadasi_ev>
+		<kiado>Pearson</kiado>
+		<szerzo>Andrew Tanenbaum</szerzo>
+		<szerzo>David Wetherall</szerzo>
+		<absztrakt>Computer Networks, 5/e is appropriate for Computer Networking or Introduction to Networking courses at both the undergraduate and graduate level in Computer Science, Electrical Engineering, CIS, MIS, and Business Departments.</absztrakt>
+	</konyv>
+	<konyv kod="x02">
+		<cim>Databases and Algorithms in Java 2nd edition</cim>
+		<kiadasi_ev>2002</kiadasi_ev>
+		<kiado>Sams Publishing</kiado>
+		<szerzo>Robert Lafore</szerzo>
+		<absztrakt>Data Structures and Algorithms in Java, Second Edition is designed to be easy to read and understand although the topic itself is complicated.</absztrakt>
+	</konyv>
+	<konyv kod="x03">
+		<cim>Assembly Language Primer for the IBM PC</cim>
+		<kiadasi_ev>1984</kiadasi_ev>
+		<kiado>Plume</kiado>
+		<szerzo>Robert Lafore</szerzo>
+		<absztrakt>Explains how assembly language works, discusses sound generation, memory segmentation, color graphics, and language interfaces, and shows how to write programs in assembly language</absztrakt>
+	</konyv>
+</konyvek>

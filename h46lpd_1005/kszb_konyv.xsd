@@ -1,20 +1,22 @@
-<?xml version="1.0"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-    <xs:element name="konyvek">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="konyv">
-                    <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="cim" type="xs:string"/>
-                            <xs:element name="ev" type="xs:decimal"/>
-                            <xs:element name="szerzo" type="xs:string"/>
-                            <xs:element name="kiado" type="xs:string"/>
-                        </xs:sequence>
-                        <xs:attribute name="id" type="xs:string" use="required"/>
-                    </xs:complexType>
-                </xs:element>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="qualified">
+	<xs:element name="konyvek">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="konyv" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="cim" type="xs:string" />
+							<xs:element name="kiadasi_ev" type="xs:unsignedShort" />
+							<xs:element name="kiado" type="xs:string" />
+							<xs:element name="szerzo" type="xs:string" maxOccurs="unbounded" />
+							<xs:element name="absztrakt" type="xs:string" />
+						</xs:sequence>
+						<xs:attribute name="kod" type="xs:string" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
 </xs:schema>

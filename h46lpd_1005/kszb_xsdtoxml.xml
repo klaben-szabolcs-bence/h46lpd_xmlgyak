@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ER xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="kszb_ertoxsd.xsd">
+    <A Aa="A1">
+        <Ac>
+            <Acd></Acd>
+            <Ace></Ace>
+        </Ac>
+    </A>
+    <B Ba="B1">
+        <Bb>
+            <Bbx></Bbx>
+            <Bby></Bby>
+        </Bb>
+    </B>
+    <C Ca="C1">
+        <Cb></Cb>
+    </C>
+    <AB>
+        <ABc></ABc>
+    </AB>
+</ER>

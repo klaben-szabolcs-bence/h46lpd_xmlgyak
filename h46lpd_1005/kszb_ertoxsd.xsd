@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="qualified">
+    <xs:element name="ER">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="A">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Ac">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Acd"/>
+                                        <xs:element name="Ace"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="Aa" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="B">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Bb">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Bbx"/>
+                                        <xs:element name="Bby"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="Ba" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="C">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Cb"/>
+                        </xs:sequence>
+                        <xs:attribute name="Ca" type="xs:string" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="AB">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ABc"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
