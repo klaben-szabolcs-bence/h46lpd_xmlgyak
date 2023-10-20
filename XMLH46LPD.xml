@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adatbazis>
+    <oktatok>
+      <oktato neptunkod="h00lpd">
+        <nev>Oktató</nev>
+        <tanszek>Alkalmazott Informatika</tanszek>
+        <targy>GS6508</targy>
+      </oktato>
+    </oktatok>
+    <targyak>
+      <targy kod="GS6508">
+        <kredit>5</kredit>
+        <megnev>XML</megnev>
+      </targy>
+    </targyak>
+    <hallgatasok>
+      <hallgat>
+        <targy>GS6508</targy>
+        <hallgato>H46LPD</hallgato>
+        <felev>3</felev>
+        <vizsgajegy>3</vizsgajegy>
+      </hallgat>
+    </hallgatasok>
+    <hallgatok>
+      <hallgato neptunkod="H46LPD">
+        <nev>Kláben Szabolcs Bence</nev>
+        <tankor>BP</tankor>
+        <szuldat>2000-05-20</szuldat>
+        <cim>
+          <irszam>3534</irszam>
+          <varos>Miskolc</varos>
+          <utca>Árpád</utca>
+          <hazszam>1337</hazszam>
+        </cim>
+      </hallgato>
+    </hallgatok>
+</adatbazis>
