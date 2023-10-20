@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE er SYSTEM "kszb_ertodtd.dtd">
+<er>
+    <A Aa="a_0">
+        <Ab>
+            <Abx></Abx>
+            <Aby></Aby>
+        </Ab>
+        <Ac>
+            <Acd></Acd>
+            <Ace></Ace>
+        </Ac>
+    </A>
+    <B Ba="b_0" Bc="c_0">
+        <Bb>
+            <Bbx></Bbx>
+            <Bby></Bby>
+        </Bb>
+    </B>
+    <C Ca="c_0">
+        <Cb></Cb>
+    </C>
+    <A_B A_B_a="a_0" A_B_b="b_0">
+        <A_Bc></A_Bc>
+    </A_B>
+</er>
