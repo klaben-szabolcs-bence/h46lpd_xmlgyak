@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<class>
+    <student id="01">
+        <firstName>Istvan</firstName>
+        <lastName>Bajusz</lastName>
+        <nickName>Pityu</nickName>
+        <age>23</age>
+    </student>
+    <student id="02">
+        <firstName>Bela</firstName>
+        <lastName>Kovacs</lastName>
+        <nickName>Beci</nickName>
+        <age>28</age>
+    </student>
+    <student id="03">
+        <firstName>Laszlo</firstName>
+        <lastName>Nagy</lastName>
+        <nickName>Laci</nickName>
+        <age>21</age>
+    </student>
+</class>

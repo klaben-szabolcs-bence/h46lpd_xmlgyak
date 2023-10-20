@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users xmlns="domh46lpd">
+  <user id="1">
+    <firstname>Istvan</firstname>
+    <lastName>Bajusz</lastName>
+    <profession>programozo</profession>
+  </user>
+  <user id="2">
+    <firstname>Bela</firstname>
+    <lastName>Kovacs</lastName>
+    <profession>villamosmernok</profession>
+  </user>
+  <user id="3">
+    <firstname>Laszlo</firstname>
+    <lastName>Nagy</lastName>
+    <profession>adminisztrator</profession>
+  </user>
+</users>

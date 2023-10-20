@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cars>
+	<supercars company="Ferrari">
+		<carname type= "formula one">Ferrari_101</carname>
+		<carname type="sports">Ferrari_202</carname>
+	</supercars>
+	
+	<supercars company="Lamborgini">
+		<carname>Lamborgini_001</carname>
+		<carname>Lamborgini_002</carname>
+		<carname>Lamborgini_003</carname>
+	</supercars>
+	
+	<luxurycars company="Bentley">
+		<carname>Bentley_1</carname>
+		<carname>Bentley_2</carname>
+		<carname>Bentley_3</carname>
+	</luxurycars>
+</cars>
